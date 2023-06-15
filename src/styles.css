@@ -4,6 +4,37 @@
     gap: 1rem;
 }
 
+.card-image-container img {
+    transition: transform 0.3s ease;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+  
+  .card-image-container:hover img {
+    transform: scale(1.2);
+  }
+
+  .header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./img/banner.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+  }
+.bg-dark2 {
+    --bs-bg-opacity: 1;
+    background-color: #952613;
+}
+.user{
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
 @media (min-width: 600px)
 {
     .grid{
@@ -11,9 +42,9 @@
     }
 }
 
-
 @media (min-width: 768px)
 {
+  
 }
 
 @media (min-width: 992px)
@@ -21,4 +52,12 @@
     .grid{
         grid-template-columns:repeat(3, 1fr);
     }
+    .header{
+        background-position:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: cover;
+        width: 100%;
+        height: 40vh;
+      }
 }

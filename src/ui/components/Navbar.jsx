@@ -12,7 +12,7 @@ export const Navbar = () => {
     }
 
     return (
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark p-2">
+        <nav className="navbar navbar-expand-sm navbar-dark bg-dark2 p-2">
             
             <Link 
                 className="navbar-brand" 
@@ -50,7 +50,7 @@ export const Navbar = () => {
             <div className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end">
                 <ul className="navbar-nav ml-auto">
                    
-                    <span className="nav-item nav-link text-primary">
+                    <span className="nav-item nav-link user">
                         Gabriel Chaldu
                     </span>
 
