@@ -38,7 +38,7 @@ export const SearchPage = () => {
 
       <div className="row">
 
-          <div className="col-5">
+          <div className="col-8">
             <h4>Buscando</h4>
             <hr />
             <form onSubmit={ onSearchSubmit }>
@@ -58,7 +58,7 @@ export const SearchPage = () => {
             </form>
           </div>
 
-          <div className="col-7">
+          <div className="col-4">
             <h4>Resultado</h4>
             <hr />
 
